@@ -7,7 +7,7 @@ import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { useState } from 'react';
 
-export default function TabTwoScreen() {
+export default function AccountScreen() {
   const { control, handleSubmit, formState: { errors } } = useForm();
   const [ submittedData, setSubmittedData ] = useState<FieldValues>();
 
@@ -23,7 +23,7 @@ export default function TabTwoScreen() {
         <IconSymbol
           size={310}
           color="#808080"
-          name="chevron.left.forwardslash.chevron.right"
+          name="person.fill"
           style={styles.headerImage}
         />
       }>
