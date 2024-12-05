@@ -16,3 +16,10 @@
 
 6. Seja feliz :)
 
+# Prints da aplicação
+
+<div style="text-align: center;">
+  <img src=".github/assets/home-print.jpg" alt="Print da tela inicial" />
+  <img src=".github/assets/auth-print.jpg" alt="Print da tela de autenticação" />
+  <img src=".github/assets/events-print.jpg" alt="Print da tela de eventos" />
+</div>
