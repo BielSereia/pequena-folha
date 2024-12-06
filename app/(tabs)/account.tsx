@@ -12,7 +12,6 @@ export default function AccountScreen() {
   const [ submittedData, setSubmittedData ] = useState<FieldValues>();
 
   const onSubmit = (data: FieldValues) => {
-    console.log('Submitted Data:', data);
     setSubmittedData(data);
   };
 
